@@ -36,7 +36,9 @@ public class Album implements Serializable {
     private int year;
     private int rating;
 
-    public Album() {
+    public Album()
+    {
+
     }
 
     public Album(String artist, String title, int year, int rating) {
